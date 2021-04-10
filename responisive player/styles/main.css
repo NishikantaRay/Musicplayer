@@ -1,0 +1,32 @@
+/* CURRENTLY IN: styles/main.css */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+#soundcloud-player .main {
+	box-sizing: border-box;
+	padding-top: 30px;
+	margin: 30px;
+}
+
+#soundcloud-player .input {
+	width: 100%;
+}
+
+#soundcloud-player .input-search {
+	width: 100%;
+	display: block;
+}
+
+#soundcloud-player .search.icon {
+	pointer-events: initial;
+	cursor: pointer;
+}
+
+#soundcloud-player .search-results {
+	justify-content: center;
+    margin-top: 30px;
+}
+
